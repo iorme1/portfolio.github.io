@@ -1,19 +1,36 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/navbar';
+import ContactSidebar from './components/contactSidebar';
+import Banner from './components/banner';
+import About from './components/about';
+import Project from './components/project';
 
 class App extends Component {
+  state =  {
+    sidebarOpen: false
+  }
+
+  showSidebar() {
+    this.setState({ sidebarOpen: !this.state.sidebarOpen })
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <React.Fragment>
+        <Navbar
+          sidebar={this.showSidebar.bind(this)}
+        />
+        <div className="row">
+          <div className="col-md-4">
+              <ContactSidebar
+                sidebar={this.state.sidebarOpen}
+              />
+          </div>
+        </div>
+        <Banner />
+        <About />
+        <Project />
+      </React.Fragment>
     );
   }
 }
