@@ -1,35 +1,47 @@
 import React, { Component } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbar from './components/navbar';
-import ContactSidebar from './components/contactSidebar';
+import Contact from './components/contact';
+import Skills from './components/skills';
 import Banner from './components/banner';
 import About from './components/about';
 import Project from './components/project';
 
-class App extends Component {
-  state =  {
-    sidebarOpen: false
-  }
 
-  showSidebar() {
-    this.setState({ sidebarOpen: !this.state.sidebarOpen })
-  }
+
+class App extends Component {
+
+
 
   render() {
+    AOS.init();
     return (
       <React.Fragment>
-        <Navbar
-          sidebar={this.showSidebar.bind(this)}
-        />
-        <div className="row">
-          <div className="col-md-4">
-              <ContactSidebar
-                sidebar={this.state.sidebarOpen}
-              />
+        <Navbar/>
+
+        <div className="row webdev-about">
+          <div className="col-md-12">
+            <Banner />
+          </div>
+          <div className="col-md-12">
+            <About />
           </div>
         </div>
-        <Banner />
-        <About />
-        <Project />
+
+        <Skills />
+
+        <div className="row">
+          <div className="col-md-12">
+            <Project />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-12">
+            <Contact />
+          </div>
+        </div>
       </React.Fragment>
     );
   }

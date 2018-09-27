@@ -9,32 +9,37 @@ li {
 
 nav > h2 {
   margin: 0 auto;
+  font-family: Impact;
+  color: #FFDC00;
+  letter-spacing: 2px;
 }
 
 i > span {
   font-size: 16px;
 }
 
-.sidebar {
-  width: 125px;
-  height: 300px;
-  background: #001f3f;
-  position: fixed;
-  top: 13.5%;
-  right: -125px;
-  -webkit-transition: -webkit-transform 0.5s ease;
-  -moz-transition:    -moz-transform 0.5s ease;
-  -o-transition:      -o-transform 0.5s ease;
-  transition:         transform 0.5s ease;
-  border-radius: 10px;
+.webdev-about {
+  background-image: url('images/projects/about-me.jpg');
+  background-size: cover;
 }
 
-.open {
-  -ms-transform: translateX(-110%);
-  -webkit-transform: translateX(-110%);
-  -moz-transform: translateX(-110%);
-  -o-transform: translateX(-110%);
-  transform: translateX(-110%);
+.mynav {
+   background: #001f3f !important;
+   height: 80px;
+   color: whitesmoke;
+}
+
+.contact-container {
+  background: #001f3f;
+  margin-top: 125px;
+  margin-right: 5px;
+  margin-left: 5px;
+  -webkit-transition: opacity 1s ease;
+  -moz-transition:    opacity 1s ease;
+  -o-transition:      opacity 1s ease;
+  transition:         opacity 1s ease;
+  border-radius: 10px;
+  z-index: 99;
 }
 
 .gmail-icon,
@@ -50,20 +55,124 @@ i > span {
 .contact-details {
   text-align: left;
   padding: 20px;
+  z-index: 99;
 }
 
 .contact-details > li {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .banner-container {
-  margin-top: 20px;
-  margin-left: 20px;
-  width: 80%;
+  background: #001f3f !important;
+  color: whitesmoke;
+  margin: 0 auto;
+  margin-top: 125px;
+  border-radius: 200px;
+  opacity: 0.8;
+  width: 75%;
+}
+
+.banner-container > h3 {
+  font-family: Impact;
+  letter-spacing: 2px;
+  color: #FFDC00;
+}
+
+.banner-container > p {
+  color: whitesmoke;
 }
 
 .about-container {
-  margin-left: 20px;
-  width: 80%;
-  border-radius: 50px;
+  background: #001f3f !important;
+  border-radius: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  opacity: 0.8;
+  width: 75%;
+}
+
+.about-container > h3 {
+  font-family: Impact;
+  letter-spacing: 2px;
+  color: #FFDC00;
+}
+
+.about-container > p {
+  color: whitesmoke;
+}
+
+.skills-btn, .proj-btn{
+  width: 80px;
+}
+
+.skill-container > .hexagon {
+  margin: 0 auto;
+}
+
+.skill-container > ul {
+  margin: 0 auto;
+}
+
+.hexagon > h5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 18px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.hexagon {
+  position: relative;
+  cursor: pointer;
+	width: 160px;
+	height: 88px;
+	background: black;
+	position: relative;
+  color: #FFDC00;
+}
+
+.hexagon:before {
+  position: absolute;
+	content: "";
+	top: -40px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 40px solid black;
+}
+
+.hexagon:after {
+  position: absolute;
+	content: "";
+	bottom: -40px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-top: 40px solid black;
+}
+
+.skills-wrap {
+  opacity: 0.8;
+  background-image: url('images/projects/ggbn.jpg');
+  background-size: cover;
+  height: 500px;
+  padding: 100px;
+  position: relative;
+}
+
+.skills-text {
+  padding-top: 50px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.projects-container {
+
 }

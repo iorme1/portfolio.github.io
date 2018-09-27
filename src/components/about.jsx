@@ -5,9 +5,12 @@ class About extends Component {
 
   render() {
     return (
-      <div className="about-container">
-        <div className="jumbotron">
-          <h3 className="text-center">About</h3>
+        <div
+          className="jumbotron about-container"
+          data-aos="slide-left"
+          data-aos-duration="1000"
+        >
+          <h3 className="text-center">aboutMe</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -17,7 +20,6 @@ class About extends Component {
             sunt in culpa qui officia deserunt mollit anim id est laborum
           </p>
         </div>
-      </div>
     );
   }
 }
