@@ -2,14 +2,9 @@ import React, { Component } from 'react';
 
 
 class About extends Component {
-
   render() {
     return (
-        <div
-          className="jumbotron about-container"
-          data-aos="slide-left"
-          data-aos-duration="1000"
-        >
+        <div className="jumbotron about-container">
           <h3 className="text-center">aboutMe</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

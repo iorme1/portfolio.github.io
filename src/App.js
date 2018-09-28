@@ -6,16 +6,14 @@ import Contact from './components/contact';
 import Skills from './components/skills';
 import Banner from './components/banner';
 import About from './components/about';
-import Project from './components/project';
+import Projects from './components/projects';
 
-
+AOS.init();
 
 class App extends Component {
 
-
-
   render() {
-    AOS.init();
+
     return (
       <React.Fragment>
         <Navbar/>
@@ -33,7 +31,7 @@ class App extends Component {
 
         <div className="row">
           <div className="col-md-12">
-            <Project />
+            <Projects />
           </div>
         </div>
 
