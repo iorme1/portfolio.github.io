@@ -13,7 +13,6 @@ AOS.init();
 class App extends Component {
 
   render() {
-
     return (
       <React.Fragment>
         <Navbar/>
