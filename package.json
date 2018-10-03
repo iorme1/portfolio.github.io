@@ -1,5 +1,5 @@
 {
-  "homepage": "http://isaacorme.com",
+  "homepage": "https://isaacorme.com",
   "name": "isaac-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,7 @@
     "aos": "^3.0.0-beta.5",
     "bootstrap": "4.1.1",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.4",
     "react": "^16.5.2",
