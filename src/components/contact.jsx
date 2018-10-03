@@ -1,31 +1,32 @@
 import React, { Component } from 'react';
 import ContactForm from './contactForm';
+import { ContactContainer, ContactDetails, IconText } from  '../styles/contact.js';
 
 class Contact extends Component {
 
   render() {
     return (
-        <footer className="contact-container">
-          <ul className="contact-details">
+        <ContactContainer>
+          <ContactDetails>
             <li>
               <a href="https://github.com/iorme1">
-                <i className="fa fa-github github-icon mr-4"></i>
+                <IconText className="fa fa-github mr-4"></IconText>
               </a>
             </li>
             <li>
               <a href="https://linkedin.com/in/isaac-orme-88b1b8169/">
-                <i className="fa fa-linkedin linkedin-icon mr-4"></i>
+                <IconText className="fa fa-linkedin mr-4"></IconText>
               </a>
             </li>
             <li>
               <a href="">
-                <i className="fa fa-envelope gmail-icon mr-4"></i>
+                <IconText className="fa fa-envelope mr-4"></IconText>
               </a>
             </li>
-          </ul>
+          </ContactDetails>
 
           <ContactForm />
-        </footer>
+        </ContactContainer>
     );
   }
 }

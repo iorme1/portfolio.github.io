@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
+import { Hexagon, SkillsContainer, SkillsText, Title } from '../styles/skills.js';
 
 class Skills extends Component {
 
   render() {
     return (
-      <div className="row skills-wrap">
+      <SkillsContainer className="row">
 
-        <div className="col-md-3 skill-container">
-          <div
-            className="hexagon programming-languages"
+        <div className="col-md-3">
+          <Hexagon
+            className="programming-languages"
             data-aos="fade-down"
             data-aos-duration="750"
           >
-            <h5>
+            <Title>
               Programming Languages
-            </h5>
-          </div>
+            </Title>
+          </Hexagon>
 
-            <div
-              className="skills-text text-center"
+            <SkillsText
+              className="text-center"
               data-aos="fade-up"
               data-aos-duration="750"
               >
@@ -27,20 +28,20 @@ class Skills extends Component {
               <p>SQL</p>
               <p>HTML5</p>
               <p>CSS</p>
-            </div>
+            </SkillsText>
         </div>
 
         <div className="col-md-3 skill-container">
-          <div
-            className="hexagon frameworks-libraries"
+          <Hexagon
+            className="frameworks-libraries"
             data-aos="fade-down"
             data-aos-duration="1250"
             >
-            <h5>Frameworks & Libraries</h5>
-          </div>
+            <Title>Frameworks & Libraries</Title>
+          </Hexagon>
 
-          <div
-            className="skills-text text-center"
+          <SkillsText
+            className="text-center"
             data-aos="fade-up"
             data-aos-duration="1250"
           >
@@ -51,48 +52,48 @@ class Skills extends Component {
             <p>Bootstrap</p>
             <p>Node.js</p>
             <p>Rspec</p>
-          </div>
+          </SkillsText>
         </div>
 
 
         <div className="col-md-3 skill-container">
-          <div
-          className="hexagon industry-knowledge"
+          <Hexagon
+          className="industry-knowledge"
           data-aos="fade-down"
           data-aos-duration="1600"
           >
-            <h5>
+            <Title>
               Industry Knowledge
-            </h5>
-          </div>
+            </Title>
+          </Hexagon>
 
-          <div
-            className="skills-text text-center"
+          <SkillsText
+            className="text-center"
             data-aos="fade-up"
             data-aos-duration="1600"
           >
             <p>Web Development</p>
-            <p>Object-oriented programming</p>
+            <p>Object-Oriented Programming</p>
             <p>Functional Programming</p>
             <p>Test Driven Development</p>
             <p>Data Structures & Algorithms</p>
             <p>Git/Github</p>
-          </div>
+          </SkillsText>
 
         </div>
 
         <div className="col-md-3 skill-container">
 
-          <div
-          className="hexagon education"
+          <Hexagon
+          className="education"
           data-aos="fade-down"
           data-aos-duration="1900"
           >
-            <h5>Education</h5>
-          </div>
+            <Title>Education</Title>
+          </Hexagon>
 
-          <div
-            className="skills-text text-center"
+          <SkillsText
+            className="text-center"
             data-aos="fade-up"
             data-aos-duration="1900"
           >
@@ -100,10 +101,10 @@ class Skills extends Component {
               San Francisco State University
               BA in Business Marketing 2013
             </p>
-            <p>Bloc inc.	Software Development</p>
-          </div>
+            <p>Bloc inc. Software Development</p>
+          </SkillsText>
         </div>
-      </div>
+      </SkillsContainer>
     );
   }
 }

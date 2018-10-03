@@ -6,6 +6,8 @@ import newStandardData from '../project-data/newStandard.js'
 import blocJamsData from '../project-data/blocJams.js';
 import blocipediaData from '../project-data/blocipedia.js';
 import bloccitData from '../project-data/bloccit.js';
+import { ProjectContainer, Title } from '../styles/projects.js';
+
 
 class Projects extends Component {
   state = {
@@ -23,11 +25,11 @@ class Projects extends Component {
     const projects = this.state.projects;
 
     return (
-      <div className="projects-container">
+      <ProjectContainer>
 
         <div className="row">
           <div className="col-md-12">
-            <h3 className="text-center m-5 proj-sect-title">myProjects</h3>
+            <Title className="text-center m-5">myProjects</Title>
           </div>
         </div>
 
@@ -45,7 +47,7 @@ class Projects extends Component {
           ))}
         </div>
 
-      </div>
+      </ProjectContainer>
     );
   }
 }

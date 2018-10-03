@@ -1,0 +1,11 @@
+body {
+  font-family: Georgia, Helvetica, sans-serif;
+  overflow-x: hidden;
+  background:url('images/projects/about-me.jpg') top right no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+li {
+  list-style-type: none;
+}
