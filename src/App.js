@@ -7,6 +7,7 @@ import Skills from './components/skills';
 import Banner from './components/banner';
 import About from './components/about';
 import Projects from './components/projects';
+import Background from './components/background';
 
 AOS.init();
 
@@ -15,8 +16,8 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <Background/>
         <Navbar/>
-
         <div className="row webdev-about">
           <div className="col-md-12">
             <Banner />
