@@ -5,11 +5,15 @@
   overflow: hidden;
   margin: 0;
 }
-
-body {
-  font-family: Georgia, Helvetica, sans-serif;
+html, body {
   overflow-x: hidden;
 }
+body {
+  font-family: Georgia, Helvetica, sans-serif;
+  width:auto;
+  max-width:auto;
+}
+
 
 li {
   list-style-type: none;

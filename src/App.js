@@ -9,7 +9,9 @@ import About from './components/about';
 import Projects from './components/projects';
 import Background from './components/background';
 
-AOS.init();
+AOS.init({
+  disable: 'mobile'
+});
 
 class App extends Component {
 
