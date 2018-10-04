@@ -4,8 +4,8 @@ import { AboutContainer, Title, Paragraph } from  '../styles/about.js';
 class About extends Component {
   render() {
     return (
-        <AboutContainer className="jumbotron">
-          <Title className="text-center">aboutMe</Title>
+        <AboutContainer className="jumbotron pt-2 pb-0">
+          <Title className="text-center mb-4">aboutMe</Title>
           <Paragraph>
             Hello! I'm Isaac Orme. I specialize in JavaScript and Ruby programming languages with
             experience in Rails, React, Angular, and Node. Creating web applications
@@ -13,7 +13,7 @@ class About extends Component {
             of entertainment value is what gets me up early in the morning. I love perfecting
             applications and constantly adding new and helpful features as they come to mind.
             Go ahead and take a peek at my skills and projects section below to find out more about
-            my skills and what I've been up to lately. 
+            me and what I've been up to lately.
           </Paragraph>
         </AboutContainer>
     );

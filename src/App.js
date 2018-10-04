@@ -5,7 +5,6 @@ import Navbar from './components/navbar';
 import Contact from './components/contact';
 import Skills from './components/skills';
 import Banner from './components/banner';
-import About from './components/about';
 import Projects from './components/projects';
 import Background from './components/background';
 import scrollToComponent from 'react-scroll-to-component';
@@ -15,7 +14,7 @@ AOS.init({
 });
 
 class App extends Component {
-  
+
   render() {
     return (
       <React.Fragment>
@@ -28,9 +27,6 @@ class App extends Component {
         <div className="row">
           <div className="col-md-12">
             <Banner />
-          </div>
-          <div className="col-md-12">
-            <About />
           </div>
         </div>
 
