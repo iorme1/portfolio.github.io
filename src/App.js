@@ -15,7 +15,7 @@ AOS.init({
 });
 
 class App extends Component {
-
+  
   render() {
     return (
       <React.Fragment>
@@ -25,7 +25,7 @@ class App extends Component {
             offset: 0, align: 'top', duration: 1200
          })}
         />
-        <div className="row webdev-about">
+        <div className="row">
           <div className="col-md-12">
             <Banner />
           </div>

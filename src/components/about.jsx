@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import { AboutContainer, Title, Paragraph } from  '../styles/about.js';
 
-
 class About extends Component {
   render() {
     return (
         <AboutContainer className="jumbotron">
           <Title className="text-center">aboutMe</Title>
-          <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est laborum
+          <Paragraph>
+            Hello! I'm Isaac Orme. I specialize in JavaScript and Ruby programming languages with
+            experience in Rails, React, Angular, and Node. Creating web applications
+            to help make people's lives easier or just making applications to add some kind
+            of entertainment value is what gets me up early in the morning. I love perfecting
+            applications and constantly adding new and helpful features as they come to mind.
+            Go ahead and take a peek at my skills and projects section below to find out more about
+            my skills and what I've been up to lately. 
           </Paragraph>
         </AboutContainer>
     );

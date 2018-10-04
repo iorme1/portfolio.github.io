@@ -18,10 +18,6 @@ class Banner extends Component {
               src={me} />
             </span>
           </Title>
-          <p>
-            Hello! I'm Isaac Orme. I specialize in JavaScript and Ruby programming languages with
-            experience in Rails, React, Angular, and Node.
-          </p>
         </BannerContainer>
     );
   }

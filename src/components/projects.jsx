@@ -14,10 +14,10 @@ class Projects extends Component {
     projects: [
       travBlogData,
       railsDBData,
-      newStandardData,
+      bloccitData,
       blocJamsData,
       blocipediaData,
-      bloccitData
+      newStandardData  
     ]
   };
 
@@ -43,6 +43,7 @@ class Projects extends Component {
               src={project.src}
               alt={project.alt}
               desc={project.desc}
+              site={project.site}
             />
           ))}
         </div>
