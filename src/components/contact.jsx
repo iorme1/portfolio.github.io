@@ -18,13 +18,7 @@ class Contact extends Component {
                 <IconText className="fa fa-linkedin mr-4"></IconText>
               </a>
             </li>
-            <li>
-              <a href="">
-                <IconText className="fa fa-envelope mr-4"></IconText>
-              </a>
-            </li>
           </ContactDetails>
-
           <ContactForm />
         </ContactContainer>
     );

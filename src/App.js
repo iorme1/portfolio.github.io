@@ -8,6 +8,7 @@ import Banner from './components/banner';
 import About from './components/about';
 import Projects from './components/projects';
 import Background from './components/background';
+import scrollToComponent from 'react-scroll-to-component';
 
 AOS.init({
   disable: 'mobile'
@@ -19,7 +20,11 @@ class App extends Component {
     return (
       <React.Fragment>
         <Background/>
-        <Navbar/>
+        <Navbar
+         scrollTo={() => scrollToComponent(this.ContactForm, {
+            offset: 0, align: 'top', duration: 1200
+         })}
+        />
         <div className="row webdev-about">
           <div className="col-md-12">
             <Banner />
@@ -39,7 +44,9 @@ class App extends Component {
 
         <div className="row">
           <div className="col-md-12">
-            <Contact />
+            <Contact
+              ref={ (div) => { this.ContactForm = div; }}
+            />
           </div>
         </div>
       </React.Fragment>
