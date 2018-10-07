@@ -11,9 +11,6 @@ class Banner extends Component {
           <Title>webDeveloper
             <span>
               <Isaac
-              data-aos="flip-right"
-              data-aos-delay="50"
-              data-aos-duration="1000"
               className="ml-2"
               alt="isaac"
               src={me} />
