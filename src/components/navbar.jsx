@@ -1,18 +1,34 @@
 import React, { Component } from 'react';
-import { NavBar, Title } from '../styles/navbar.js';
+import { NavBar, Title, ScrollItem, NavItems} from '../styles/navbar.js';
 
 class Navbar extends Component {
 
   render() {
+    let { scrollContact, scrollSkills, scrollProjects } = this.props
+
     return (
-      <NavBar className="navbar navbar-light bg-light fixed-top text-center">
+      <NavBar className="navbar navbar-light bg-light fixed-top">
         <Title>Isaac Orme</Title>
-        <button
-          className="btn btn-primary btn-lg mr-2 contact-btn"
-          onClick={this.props.scrollTo}
+        <NavItems>
+          <ScrollItem
+            className="btn btn-danger mr-2 btn-lg"
+            onClick={scrollContact}
           >
-          Contact
-        </button>
+            Contact
+          </ScrollItem>
+          <ScrollItem
+            className="btn btn-warning mr-2 btn-lg"
+            onClick={scrollSkills}
+          >
+            Skills
+          </ScrollItem>
+          <ScrollItem
+            className="btn btn-primary mr-2 btn-lg"
+            onClick={scrollProjects}
+          >
+            Projects
+          </ScrollItem>
+        </NavItems>
       </NavBar>
     );
   }

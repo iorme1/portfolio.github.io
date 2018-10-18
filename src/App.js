@@ -20,8 +20,14 @@ class App extends Component {
       <React.Fragment>
         <Background/>
         <Navbar
-         scrollTo={() => scrollToComponent(this.ContactForm, {
+         scrollContact={() => scrollToComponent(this.ContactForm, {
             offset: 0, align: 'top', duration: 1200
+         })}
+         scrollSkills={() => scrollToComponent(this.Skills, {
+           offset: -100, align: 'top', duration: 1200
+         })}
+         scrollProjects={() => scrollToComponent(this.Projects, {
+           offset: 0, align: 'top', duration: 1200
          })}
         />
         <div className="row">
@@ -30,11 +36,15 @@ class App extends Component {
           </div>
         </div>
 
-        <Skills />
+        <Skills
+          ref={ (div) => { this.Skills = div; }}
+        />
 
         <div className="row">
           <div className="col-md-12">
-            <Projects />
+            <Projects
+              ref={ (div) => { this.Projects = div; }}
+            />
           </div>
         </div>
 

@@ -17,7 +17,7 @@ class Projects extends Component {
       bloccitData,
       blocJamsData,
       blocipediaData,
-      newStandardData  
+      newStandardData
     ]
   };
 
@@ -43,7 +43,6 @@ class Projects extends Component {
               src={project.src}
               alt={project.alt}
               desc={project.desc}
-              site={project.site}
             />
           ))}
         </div>

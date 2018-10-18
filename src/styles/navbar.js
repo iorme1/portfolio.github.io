@@ -8,8 +8,27 @@ export const NavBar = styled.nav`
 `;
 
 export const Title = styled.h2`
-  margin: 0 auto;
   font-family: Impact;
   color: #FFDC00;
   letter-spacing: 2px;
+  @media all and (max-width: 600px) {
+    margin: 0 auto;
+  }
+`;
+
+export const ScrollItem = styled.li`
+  @media all and (max-width: 600px) {
+    font-size: 14px;
+    background: none;
+    border: none;
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+`;
+
+export const NavItems = styled.ul`
+  @media all and (max-width: 600px) {
+    text-align: center;
+    margin: 0 auto !important;
+  }
 `;
