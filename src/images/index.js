@@ -1,5 +1,5 @@
 export blocJams from './projects/bloc-jams';
-export newStandard from './projects/blocipedia';
+export movieDiscovery from './projects/movie-discovery'
 export railsDB from './projects/rails-db';
 export travelBlog from './projects/travel-blog';
 export industry from './projects/industry';

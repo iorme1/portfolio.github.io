@@ -7,7 +7,7 @@ const railsDBData = {
   site: "https://rails-db-interactive.herokuapp.com/",
   src: railsDB,
   alt: "rails-db",
-  desc: "An interactive diagramming tool made specifically for diagramming Ruby on Rails apps. The app uses multiple/single file upload to read schema and model files and create interactive visual models with that information. HTML5 canvas facilitates the interactive functionality of the visual models. Users can create a personalized diagram of their Rails database. This app is specifically targeted at users who are trying to learn an unfamiliar Rails database.",
+  desc: "This application is an interactive diagramming tool made specifically for diagramming Ruby on Rails apps. Users can create a personalized diagram of their Rails database by manipulating visual models that represent database tables. Built with vanilla JavaScript and implements the HTML5 canvas for increased interactivity.",
 };
 
 export default railsDBData;

@@ -7,7 +7,7 @@ const blocJamsData = {
   site: "",
   src: blocJams,
   alt: "bloc-jams",
-  desc: "Music playing application. Built with the AngularJS JavaScript framework. ",
+  desc: "Music playing application. Built with the AngularJS JavaScript framework. Implements a custom built music player control system.",
 };
 
 export default blocJamsData;

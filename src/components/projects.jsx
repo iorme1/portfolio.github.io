@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Project from './project';
 import travBlogData from '../project-data/travelBlog.js';
 import railsDBData from  '../project-data/railsDB.js';
-import newStandardData from '../project-data/newStandard.js'
+import movieDiscoveryData from '../project-data/movieDiscovery.js'
 import blocJamsData from '../project-data/blocJams.js';
 import blocipediaData from '../project-data/blocipedia.js';
 import bloccitData from '../project-data/bloccit.js';
@@ -17,7 +17,7 @@ class Projects extends Component {
       bloccitData,
       blocJamsData,
       blocipediaData,
-      newStandardData
+      movieDiscoveryData
     ]
   };
 

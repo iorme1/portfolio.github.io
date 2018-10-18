@@ -7,7 +7,7 @@ const blocipediaData = {
   site: 'https://blocipedia-io.herokuapp.com/',
   src: wiki,
   alt: 'blocipedia',
-  desc: 'Blocipedia is a Wikipedia-like clone. Built with Ruby On Rails. Notable gems used are pundit, stripe and redcarpet.',
+  desc: 'Blocipedia is a Wikipedia-like clone. Users can create wikis and add collaborators. Built with Ruby On Rails. Implements redcarpet for markdown.',
 };
 
 export default blocipediaData;

@@ -7,7 +7,7 @@ const bloccitData = {
   site: "https://bloccit-io.herokuapp.com/",
   src: reddit,
   alt: "bloccit",
-  desc: "Reddit replica to teach the fundamentals of web development and Rails. Built with Ruby On Rails",
+  desc: "Bloccit is a Reddit replica created with the purpose of teaching myself the fundamentals of web development and Rails. Admins can create new topics, and standard users can create posts within topic sections.",
 };
 
 export default bloccitData;
