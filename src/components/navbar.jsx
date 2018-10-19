@@ -11,19 +11,19 @@ class Navbar extends Component {
         <Title>Isaac Orme</Title>
         <NavItems>
           <ScrollItem
-            className="btn btn-danger mr-2 btn-lg"
+            className="btn btn-warning mr-2"
             onClick={scrollContact}
           >
             Contact
           </ScrollItem>
           <ScrollItem
-            className="btn btn-warning mr-2 btn-lg"
+            className="btn btn-warning mr-2"
             onClick={scrollSkills}
           >
             Skills
           </ScrollItem>
           <ScrollItem
-            className="btn btn-primary mr-2 btn-lg"
+            className="btn btn-warning mr-2"
             onClick={scrollProjects}
           >
             Projects

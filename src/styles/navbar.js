@@ -17,6 +17,8 @@ export const Title = styled.h2`
 `;
 
 export const ScrollItem = styled.li`
+  background-color: black;
+  color: yellow;
   @media all and (max-width: 600px) {
     font-size: 14px;
     background: none;
