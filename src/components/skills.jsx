@@ -50,7 +50,6 @@ class Skills extends Component {
             <p>jQuery</p>
             <p>React</p>
             <p>Bootstrap</p>
-            <p>Node.js</p>
             <p>Rspec</p>
           </SkillsText>
         </div>
