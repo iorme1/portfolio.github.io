@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.918ca8f2.css",
-  "main.css.map": "static/css/main.918ca8f2.css.map",
-  "main.js": "static/js/main.ca7c04fe.js",
-  "main.js.map": "static/js/main.ca7c04fe.js.map",
+  "main.css": "static/css/main.852cfe28.css",
+  "main.css.map": "static/css/main.852cfe28.css.map",
+  "main.js": "static/js/main.3326e107.js",
+  "main.js.map": "static/js/main.3326e107.js.map",
   "static/media/about-me.jpg": "static/media/about-me.d8c61e28.jpg",
   "static/media/bloc-jams.png": "static/media/bloc-jams.de4b8e5b.png",
   "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
@@ -11,9 +11,9 @@
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/me.jpeg": "static/media/me.047f46f9.jpeg",
+  "static/media/midnight.png": "static/media/midnight.d9f985b0.png",
   "static/media/movie-discovery.png": "static/media/movie-discovery.292dfe8f.png",
   "static/media/rails-db.png": "static/media/rails-db.f3e0fd28.png",
   "static/media/reddit.png": "static/media/reddit.49b2be69.png",
-  "static/media/travel-blog.png": "static/media/travel-blog.e5d14c5f.png",
-  "static/media/wiki.jpg": "static/media/wiki.2895b67d.jpg"
+  "static/media/travel-blog.png": "static/media/travel-blog.e5d14c5f.png"
 }
