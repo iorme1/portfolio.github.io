@@ -31,3 +31,8 @@ li {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.project-card {
+  width: 100%;
+  height: 100%;
+}

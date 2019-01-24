@@ -8,8 +8,8 @@ class Project extends Component {
     const btnType = this.props.site ? "btn btn-warning m-2" : "btn btn-danger m-2";
 
     return (
-      <div className="col-md-4 mb-2">
-        <div className="card"
+      <div className="col-md-4 p-1 project-card-container">
+        <div className="card project-card"
           data-aos="flip-right"
           data-aos-duration="1200"
         >

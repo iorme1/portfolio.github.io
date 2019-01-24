@@ -1,32 +1,12 @@
 import React, { Component } from 'react';
 import Project from './project';
-import travBlogData from '../project-data/travelBlog.js';
-import railsDBData from  '../project-data/railsDB.js';
-import movieDiscoveryData from '../project-data/movieDiscovery.js'
-import blocJamsData from '../project-data/blocJams.js';
-import blocipediaData from '../project-data/blocipedia.js';
-import bloccitData from '../project-data/bloccit.js';
 import { ProjectContainer, Title } from '../styles/projects.js';
-
+import projects from '../project-data/projects';
 
 class Projects extends Component {
-  state = {
-    projects: [
-      travBlogData,
-      railsDBData,
-      bloccitData,
-      blocJamsData,
-      blocipediaData,
-      movieDiscoveryData
-    ]
-  };
-
   render() {
-    const projects = this.state.projects;
-
     return (
       <ProjectContainer>
-
         <div className="row">
           <div className="col-md-12">
             <Title className="text-center m-5">myProjects</Title>
@@ -46,7 +26,6 @@ class Projects extends Component {
             />
           ))}
         </div>
-
       </ProjectContainer>
     );
   }
