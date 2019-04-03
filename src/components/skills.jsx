@@ -46,10 +46,11 @@ class Skills extends Component {
             data-aos-duration="1250"
           >
             <p>Ruby on Rails</p>
-            <p>AngularJS</p>
-            <p>jQuery</p>
             <p>React</p>
+            <p>Redux</p>
+            <p>jQuery</p>
             <p>Bootstrap</p>
+            <p>Devise</p>
             <p>Rspec</p>
           </SkillsText>
         </div>
@@ -75,6 +76,7 @@ class Skills extends Component {
             <p>Object-Oriented Programming</p>
             <p>Functional Programming</p>
             <p>Test Driven Development</p>
+            <p>API consumption & Creation </p>
             <p>Data Structures & Algorithms</p>
             <p>Git/Github</p>
           </SkillsText>
