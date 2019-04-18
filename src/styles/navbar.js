@@ -20,7 +20,7 @@ export const ScrollItem = styled.li`
   background-color: black;
   color: yellow;
   @media all and (max-width: 600px) {
-    font-size: 14px;
+    font-size: 13px;
     background: none;
     border: none;
     color: whitesmoke;
