@@ -34,3 +34,15 @@ export const NavItems = styled.ul`
     margin: 0 auto !important;
   }
 `;
+
+export const ResumeLink = styled.a`
+  background-color: black;
+  color: yellow;
+  @media all and (max-width: 600px) {
+    font-size: 14px;
+    background: none;
+    border: none;
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+`;

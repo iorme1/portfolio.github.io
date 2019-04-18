@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { NavBar, Title, ScrollItem, NavItems} from '../styles/navbar.js';
+import {
+  NavBar, Title, ScrollItem, NavItems, ResumeLink
+} from '../styles/navbar.js';
 
 class Navbar extends Component {
 
@@ -28,6 +30,13 @@ class Navbar extends Component {
           >
             Projects
           </ScrollItem>
+          <ResumeLink
+            href="https://docs.google.com/document/d/1xao-o2KI2nUcuu0MWF_490TsN_TSgtlmaOAHknR5UQI/edit?usp=sharing"
+            target="_blank"
+            className="btn btn-warning mr-2"
+          >
+            Resume
+          </ResumeLink>
         </NavItems>
       </NavBar>
     );
