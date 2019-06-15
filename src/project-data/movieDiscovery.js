@@ -7,7 +7,9 @@ const movieDiscoveryData = {
   site: "https://movie-discovery-app.herokuapp.com/",
   src: movieDiscovery,
   alt: "movie-discovery",
-  desc: "Built with Rails, this application uses TMDB (The Movie Database) API to show users current popular tv shows and search functionality to discover shows related to user queries."
+  desc: "Built with Rails, this application uses TMDB (The Movie Database) API"+
+        "to show users current popular tv shows and search functionality to"+
+        "discover shows related to user queries."
 };
 
 export default movieDiscoveryData;
